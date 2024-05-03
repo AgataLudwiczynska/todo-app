@@ -1,0 +1,10 @@
+{
+	"app.form.header": "Dodaj zadanie",
+	"app.form.name.label": "Nazwa zadania:",
+	"app.form.description.label": "Opis zadania:",
+	"app.form.name.placeholder": "Wprowadź nazwę zadania",
+	"app.form.description.placeholder": "Wprowadź opis zadania",
+	"app.form.success.button": "Dodaj",
+	"app.form.cancel.button": "Anuluj",
+	"app.list.header": "Lista wszystkich zadań"
+}

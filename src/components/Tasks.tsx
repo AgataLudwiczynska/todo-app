@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import TaskItem, { Task } from "./TaskItem";
 
 interface TasksProps {
@@ -9,7 +10,12 @@ interface TasksProps {
 const Tasks = ({ taskList, checkHandler, deleteHandler }: TasksProps) => {
 	return (
 		<div>
-			<p className="h3 mb-4">List of all tasks</p>
+			<p className="h3 mb-4">
+				<FormattedMessage
+					id="app.list.header"
+					defaultMessage={"List of all tasks"}
+				/>
+			</p>
 			<div className="d-flex flex-column gap-2">
 				{taskList.map((task) => (
 					<TaskItem

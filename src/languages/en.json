@@ -1,0 +1,10 @@
+{
+	"app.form.header": "Create task",
+	"app.form.name.label": "Task name:",
+	"app.form.description.label": "Task description:",
+	"app.form.description.name": "Enter your task name",
+	"app.form.description.placeholder": "Enter your task description",
+	"app.form.success.button": "Add",
+	"app.form.cancel.button": "Cancel",
+	"app.list.header": "List of all tasks"
+}
